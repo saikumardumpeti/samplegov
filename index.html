@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/527962c75f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img
+            src="https://allgovernmentjobs.in/public/img/logo.svg"
+            class="logo-image"
+            alt="Logo"
+          />
+          <span class="brand-text">All Government Jobs</span>
+        </a>
+        <button class="nav-toggle-button" type="button" onclick="toggleNav()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="navbar-ul" id="navbar-ul">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Latest Govt Jobs</li>
+          <li class="nav-item">Results</li>
+          <li class="nav-item">Qualifications</li>
+          <li class="nav-item">Organizations</li>
+          <li class="nav-item">Contact Us</li>
+          <li class="nav-item">Login</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-container">
+      <div class="banner-container">
+        <div class="info-container text-center">
+          <div class="banner-heading-container">
+            <h1 class="banner-heading">
+              India's Best Portal For All Government Jobs Updates
+            </h1>
+          </div>
+          <form class="form-container">
+            <div class="input-container">
+              <input type="text" class="input" placeholder="Education" />
+              <input type="text" class="input" placeholder="State" />
+              <button class="search-button">Search</button>
+            </div>
+          </form>
+          <div class="banner-description">
+            357 Notifications and 39,726 Jobs
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center pt-5 pb-4">
+        <h1 class="heading-gov">
+          All Government Jobs - Sarkari Naukri India's Best Govt Job Site
+        </h1>
+        <h2 class="mb-4 font-weight-bold" style="font-size: 20px">
+          Get Your Latest Government Jobs
+        </h2>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <p>
+              Explore the world of All Government Jobs, which offer a wide range
+              of career options. Our robust tool enables you to discover the
+              perfect Govt job that aligns with your qualifications and
+              interests. All Govt Jobs unlocks the gateway to a Fulfilling
+              career
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="images-container">
+        <div class="container">
+          <div class="row pt-md-5">
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/eng.jpg" alt="eng" />
+                  <p>Engineering</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ... Other anchor-image elements ... -->
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/air.jpg" alt="eng" />
+                  <p>Aviation</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/medical.jpg" alt="eng" />
+                  <p>Medical</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/law.jpg" alt="eng" />
+                  <p>Law</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/dental.jpg" alt="eng" />
+                  <p>Dental</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/home.jpg" alt="eng" />
+                  <p>Architecture</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/pharmasity.jpg" alt="eng" />
+                  <p>Pharmacy</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/navy.jpg" alt="eng" />
+                  <p>Naval</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/tools.jpg" alt="eng" />
+                  <p>ITI/ Diploma</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/nursing.jpg" alt="eng" />
+                  <p>Nurse</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/cheff.jpg" alt="eng" />
+                  <p>Engineering</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/sports.jpg" alt="eng" />
+                  <p>Sports Quota</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/eng.jpg" alt="eng" />
+                  <p>Engineering</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/art.jpg" alt="eng" />
+                  <p>Arts</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="anchor-image col-md-2 col-6 hover-container">
+              <!-- Correct class name -->
+              <div class="work-list">
+                <div class="work">
+                  <img src="assets/images/plant.jpg" alt="eng" />
+                  <p>Agriculture</p>
+                  <div class="layer">
+                    <!-- Correct class name -->
+                    <a href="#"><i class="fa-solid fa-share"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <h2 class="text-center" style="margin: 0 auto">All Govt Jobs</h2>
+        <div class="row mb-3 justify-content-center">
+          <div class="col-md-12 offset-md-1">
+            <div class="row mb-3 mt-5">
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    DHC Garhwa Jobs 2024 - Apply for 20 Ayush Doctor and Medical
+                    Assistant Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    NHM Thiruvananthapuram Jobs 2024 - Apply Online for 04 Staff
+                    Nurse, Pharmacist and Other Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    CCRAS jobs 2024 Apply for 02 Senior Consultant & Senior
+                    Research Fellow Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    AIIA Jobs 2024 Apply for Senior Research Fellow Jobs
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    TSRTC Jobs 2024 - Apply for 03 (Walk-In-Interview) Vice
+                    Principal, Associate Professor and Tutor Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link">
+                  <p>
+                    WBSHFWS Jobs 2024 - Apply Online for State Consultant RBSK
+                    Post
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    CMOH Paschim Bardhaman Jobs 2024 - Apply Online for 19
+                    Dental Hygienist, Dental Technician and Other Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    Acharya Sree Bhikshu Govt Hospital Jobs 2024 - Apply for 04
+                    Senior Resident Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    NHM Gujarat Jobs 2024 - Apply Online for Accountant Cum
+                    Computer Operator Posts
+                  </p></a
+                >
+              </div>
+
+              <div class="col-md-6 mb-4 d-flex">
+                <span class="mr-3"><i class="fa-solid fa-share"></i></span>
+                <a href="#" class="job-link"
+                  ><p>
+                    AIIMS Bhubaneswar Jobs 2024 - Apply Online for 06 Junior
+                    Resident Posts
+                  </p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jobs-qualification-container">
+        <div class="container pt-5">
+          <h1 class="qualification-heading mb-4">
+            All Government Jobs by Qualifications
+          </h1>
+          <div class="row jobs-container" style="margin: 0 auto">
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>10th</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>8th</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>Aeronautical Engineering </strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>Agricultural Engineering </strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>ANM</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>Any Degree </strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>Architectural Engineering</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>Automobile Engineering</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>B.E/ B.Tech</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>B.Ed </strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>B.sc Nursing</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>B.V.Sc</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>BAMS</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="mb-3 p-3 white text-center">
+                <a href="#"><strong>Biotechnology</strong></a>
+                <div class="pt-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="board-container">
+        <div class="container pt-4">
+          <h1 class="text-center">All Government Jobs by Recruitment Boards</h1>
+          <div class="board-container-1">
+            <a href="#" class="board-anchor"><p>ECHS</p></a>
+            <a href="#" class="board-anchor"><p>CSIR</p></a>
+            <a href="#" class="board-anchor"><p>BOB</p></a>
+            <a href="#" class="board-anchor"><p>ICMR</p></a>
+            <a href="#" class="board-anchor"><p>OSSC</p></a>
+            <a href="#" class="board-anchor"><p>NHM</p></a>
+            <a href="#" class="board-anchor"><p>CCRAS</p></a>
+            <a href="#" class="board-anchor"><p>AIIA</p></a>
+            <a href="#" class="board-anchor"><p>CIDCO</p></a>
+            <a href="#" class="board-anchor"><p>TSRTC</p></a>
+            <a href="#" class="board-anchor"><p>GMCH</p></a>
+            <a href="#" class="board-anchor"><p>AIIMS Bhubaneswar</p></a>
+            <a href="#" class="board-anchor"><p>SVNIT</p></a>
+            <a href="#" class="board-anchor"><p>Anna University</p></a>
+            <a href="#" class="board-anchor"><p>CMD Kerala</p></a>
+            <a href="#" class="board-anchor"><p>NIT Uttarakhand</p></a>
+            <a href="#" class="board-anchor"><p>NIMHANS</p></a>
+            <a href="#" class="board-anchor"><p>IIT Delhi</p></a>
+            <a href="#" class="board-anchor"><p>SLNMCH</p></a>
+            <a href="#" class="board-anchor"><p>IIT Dhanbad</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="footer-row-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-image-cont">
+              <div class="description-container">
+                <img
+                  src="https://allgovernmentjobs.in/public/img/logo.svg"
+                  alt="govt image"
+                />
+
+                &nbsp; <span class="h4 m-0">All Government Jobs</span>
+              </div>
+              <div>
+                AllGovernmentJobs.in, founded in 2015, is a government job
+                portal built with a Rebust search tools. We offer a wide range
+                of Government Jobs, recruitment opportunities across India for
+                free to help the job seekers. We proudly hold the position as
+                the No.1 Job Portal across India, our company was accelerated
+                through India’s largest Incubation T-Hub, Telangana, India.
+              </div>
+            </div>
+            <div class="col-md-2 mb-3">
+              <h3>Company</h3>
+              <ul class="footer-ul-container">
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li>
+                  <a href="#">Terms &amp; Conditions</a>
+                </li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Subscribe</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+              <h3>Popular Pages</h3>
+              <ul class="footer-ul-container">
+                <li><a href="#">Government Jobs</a></li>
+                <li><a href="#">Employment News</a></li>
+                <li><a href="#">Free Job Alert</a></li>
+                <li>
+                  <a href="#">State Government Jobs</a>
+                </li>
+                <li>
+                  <a href="central-government-jobs">Central Government Jobs</a>
+                </li>
+                <li>
+                  <a href="#">Govt Jobs by Education</a>
+                </li>
+                <li>
+                  <a href="#">Govt Jobs by Organisation</a>
+                </li>
+                <li>
+                  <a href="#">Govt Jobs by Roles</a>
+                </li>
+                <li>
+                  <a href="#">Govt Jobs by Location</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+              <h3>Popular Pages</h3>
+              <ul class="footer-ul-container">
+                <li><a href="#">Previous Papers</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Admit Card</a></li>
+                <li><a href="#">Answer Keys</a></li>
+                <li><a href="#">Syllabus</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-section-social">
+            <h1>Follow Us On</h1>
+            <div class="social-icons">
+              <a href="#">
+                <img
+                  src="assets/socialicons/linkedin-removebg-preview.png"
+                  alt="linkedin"
+                  class="social-image"
+                />
+              </a>
+            </div>
+            <div class="social-icons">
+              <a href="#">
+                <img
+                  src="assets/socialicons/insta-removebg-preview.png"
+                  alt="insta"
+                  class="social-image"
+                />
+              </a>
+            </div>
+            <div class="social-icons">
+              <a href="#"
+                ><img
+                  src="assets/socialicons/fb-removebg-preview.png"
+                  class="social-image"
+                  alt="fb"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
