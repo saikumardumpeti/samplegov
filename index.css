@@ -70,6 +70,7 @@ h1 {
     cursor: pointer;
     font-size: 1.5rem;
     color: #fff;
+    outline: none !important;
 }
 
 .navbar-ul {
@@ -88,9 +89,9 @@ h1 {
 
 
 .nav-item:hover {
-    color: #fff; /* Change the text color on hover */
-    transform: scale(1.15); /* Scale up the content slightly on hover */
-    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; /* Add transition effect for smooth color, background, and transform changes */
+    color: #fff; 
+    transform: scale(1.15);
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; 
 }
 
 
@@ -102,7 +103,7 @@ h1 {
     .navbar-ul {
         display: none;
         flex-direction: column;
-        align-items: flex-start; /* Align items at the start */
+        align-items: flex-start; 
         position: absolute;
         top: 60px;
         left: 0;
@@ -182,14 +183,14 @@ html {
 
 .input {
     padding: 10px;
-    border: 1px solid black; /* Corrected border property */
+    border: 1px solid black; 
     outline: none;
     flex-grow: 1;
-    transition: box-shadow 0.3s ease-in-out; /* Adding a transition effect */
+    transition: box-shadow 0.3s ease-in-out; 
 }
 
 .input:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding a subtle box-shadow on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -210,17 +211,17 @@ html {
     }
 
     .input-container {
-        flex-direction: row; /* Change to row for smaller devices */
+        flex-direction: row; 
         flex-wrap: wrap;
     }
 
     .input {
-        width: calc(50% - 5px); /* Adjust width to 50% with a small gap */
+        width: calc(50% - 5px);
     }
 
     .search-button {
         width: 100%;
-        margin-top: 10px; /* Add some space between input and button */
+        margin-top: 10px; 
     }
 }
 .banner-description {
@@ -433,14 +434,14 @@ html {
   .white {
     background: #fff;
     text-align: center !important;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add box-shadow transition for hover effect */
-    border-radius: 8px; /* Add border-radius for a rounded look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .white:hover {
-    transform: scale(1.05); /* Increase size on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
   }
   
  
@@ -476,11 +477,14 @@ html {
     border: 1px solid #cecece;
     border-radius: 10px;
     margin: 5px;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .board-anchor p {
+    font-size: 10px;
+    font-weight: 400;
   }
   
   .board-anchor:hover {
@@ -569,11 +573,12 @@ html {
 }
 .social-icons {
     display: inline-block;
-    margin: 10px;
+    
 }
 .social-image {
-    height: 30px;
+    height: 20px;
     transition: transform 0.3s ease-in-out; 
+    margin-right: 5px;
 }
 
 .social-image:hover {
@@ -581,7 +586,6 @@ html {
 }
 .footer-section-social {
     display: -ms-flexbox;
-    
     flex-wrap: wrap;
     -ms-flex-align: center;
     align-items: center;
@@ -594,6 +598,7 @@ html {
 .footer-ul-container {
     list-style-type: none;
     color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer-ul-container li a {
@@ -602,8 +607,8 @@ html {
 }
 
 .footer-ul-container li a:hover {
-    color: #00f; /* Change the text color on hover */
-    transform: scale(1.2); /* Scale up on hover */
+    color: #00f; 
+    transform: scale(1.2); 
 }
 
 
@@ -617,4 +622,12 @@ html {
 
 .input-container input.input:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-heading {
+    font-size: 20px;
+}
+.footer-social-heading {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
